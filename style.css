@@ -97,7 +97,7 @@ nav li a:hover {
     display: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 
     .row-2{
         grid-template-columns: 1fr 1fr;
@@ -135,7 +135,7 @@ nav li a:hover {
         overflow-x:hidden;
       }
 }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 800px) {
      
     nav ul{
         position: absolute;
@@ -482,7 +482,7 @@ form button a{
     grid-row-gap: 40px;
 }
 
-@media only screen and (max-width: 600px) and (overflow-block: scroll) {
+@media only screen and (max-width: 800px) {
     .product-container {
       grid-template-columns: 1fr;
     }
@@ -605,7 +605,7 @@ form button a{
     font-size: 0.9em;
     text-align: right;
   }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 800px) {
     .row.primary {
       grid-template-columns: 1fr;
       width: 100%;
@@ -621,13 +621,13 @@ form button a{
     }
   
   }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 800px) {
     .row{
         flex-direction: column;
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .row.primary {
       grid-template-columns: 1fr;
       width: 100%;
@@ -648,7 +648,7 @@ form button a{
     }
   
   }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 800px) {
     .row{
         flex-direction: column;
     }
