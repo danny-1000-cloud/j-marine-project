@@ -97,8 +97,8 @@ nav li a:hover {
     display: none;
 }
 
-@media screen and (max-width: 800px) {
-    
+@media (min-width: 380px) and (max-width: 481px) {
+
     .row-2{
         grid-template-columns: 1fr 1fr;
         margin: 22px;
@@ -129,7 +129,8 @@ nav li a:hover {
         height: 60px;
     }
   }
-  @media only screen and (max-width: 700px){
+  @media (min-width: 380px) and (max-width: 481px){
+     
     nav ul{
         position: absolute;
         top: 70px;
@@ -475,7 +476,7 @@ form button a{
     grid-row-gap: 40px;
 }
 
-@media screen and (max-width: 800px) {
+@media (min-width: 380px) and (max-width: 481px) {
     .product-container {
       grid-template-columns: 1fr;
     }
@@ -598,7 +599,7 @@ form button a{
     font-size: 0.9em;
     text-align: right;
   }
-  @media screen and (max-width: 800px) {
+  @media (min-width: 380px) and (max-width: 481px) {
     .row.primary {
       grid-template-columns: 1fr;
       width: 100%;
@@ -614,13 +615,13 @@ form button a{
     }
   
   }
-  @media screen and (max-width: 800px) {
+  @media (min-width: 380px) and (max-width: 481px) {
     .row{
         flex-direction: column;
     }
 }
 
-@media screen and (max-width: 700px) {
+@media (min-width: 380px) and (max-width: 481px) {
     .row.primary {
       grid-template-columns: 1fr;
       width: 100%;
@@ -641,7 +642,7 @@ form button a{
     }
   
   }
-  @media screen and (max-width: 700px) {
+  @media (min-width: 380px) and (max-width: 481px) {
     .row{
         flex-direction: column;
     }
