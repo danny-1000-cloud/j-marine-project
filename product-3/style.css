@@ -295,7 +295,17 @@ div h1{
     display: inline-block;
 }
 
-
+.fe-box .btn{
+    display: inline-block;
+    background: #f5430c;
+    color: #fff;
+    padding: 8px 25px;
+    margin: 20px 0;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    width: 150px;
+}
 
 .fe-box img{
     height: 90px;
@@ -309,6 +319,17 @@ div h1{
         align-items: center;
         text-align: center;
         justify-content: center;
+    }
+    .fe-box .btn{
+        display: inline-block;
+        background: #f5430c;
+        color: #fff;
+        padding: 8px 20px;
+        margin: 20px 0;
+        border-radius: 30px;
+        border: 1px solid #fff;
+        cursor: pointer;
+        width: 150px;
     }
 
 }
