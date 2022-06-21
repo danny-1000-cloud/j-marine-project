@@ -165,7 +165,7 @@ nav li a:hover {
     }
     nav ul li{
        display: block;
-       margin-right: 20px;
+       margin-right: 50px;
        margin-top: 10px;
        margin-bottom: 10px;
     }
@@ -650,6 +650,9 @@ form button a{
     .about{
         padding: 20px;
         margin-left: -40px;
+    }
+    .about h3 p{
+        font-size: 10px;
     }
     .links{
         padding: 20px;
