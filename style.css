@@ -637,16 +637,23 @@ form button a{
   @media only screen and (max-width: 600px) {
     .row.primary {
       grid-template-columns: 1fr;
-      width: 100%;
     }
     .row.primary{
-        width: 100%;
+        width: 80%;
         padding: 0;
         font-size: 13px;
         
     }
     .row.copyright{
         width: 100%;
+    }
+    .about{
+        padding: 20px;
+        margin-left: -30px;
+    }
+    .links{
+        padding: 20px;
+        margin-left: -30px;
     }
   
   }
@@ -656,26 +663,5 @@ form button a{
     }
 }
 
-@media screen and (max-width: 600px) {
-    .row.primary {
-    align-items: flex-start;
-      grid-template-columns: 1fr;
-      width: 80%;
-    }
-    .row.primary{
-        width: 80%;
-        padding: 0;
-        font-size: 13px;
-    }
-    .row.copyright{
-        width: 100%;
-    }
-  
-  }
-  @media screen and (max-width: 600px) {
-    .row{
-        flex-direction: column;
-    }
-}
 
   
