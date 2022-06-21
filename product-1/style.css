@@ -9,7 +9,7 @@
 }
 
 .selection-m1{
-    margin: 40px 0;
+    margin: 30px 0;
 }
 
 body{
@@ -75,16 +75,15 @@ nav li a:hover {
     display: inline-block;
     background: #f5430c;
     color: #fff;
-    padding: 5px 25px;
+    padding: 8px 25px;
     margin: 20px 0;
     border-radius: 30px;
     border: 1px solid #fff;
     cursor: pointer;
-    width: 150px;
+    width: 350px;
 }
 .btn a{
     color: #fff;
-    font-size: 12px
 }
 .row-2{
     align-items: center;
@@ -98,11 +97,29 @@ nav li a:hover {
     display: none;
 }
 
-@media screen and (max-width: 800px) {
-    
+@media only screen and (max-width: 600px) {
+    body{
+        overflow-x: hidden;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    body{
+        overflow-x: hidden;
+    }
+}
+@media only screen and (max-width: 600px) {
+    body{
+        overflow-x: hidden;
+    }
+}
+@media only screen and (max-width: 600px) {
+
     .row-2{
-        grid-template-columns: 1fr 1fr;
-        margin: 22px;
+        grid-template-columns: 1fr;
+        margin: 0;
+        font-size: 11px;
     }
     .row-2 p{
         color: #fff;
@@ -111,8 +128,8 @@ nav li a:hover {
         padding: 15px;
     }
     .row- h2{
-        font-size: 14px;
-        padding: 12px;
+        font-size: 13px;
+        padding: 5px;
         margin: 8px;
     }
     .row-2 h3{
@@ -120,9 +137,10 @@ nav li a:hover {
         padding 12px;
     }
     .btn{
-        width: 150px;
-        padding: 5px 15px;
-        margin: 15px 0;
+        align-items: center;
+        width: 200px;
+        padding: 5px 12px;
+        margin-top: 5px;
         border-radius: 30px;
     }
     .logo{
@@ -130,13 +148,20 @@ nav li a:hover {
         height: 60px;
     }
   }
-  @media only screen and (max-width: 800px){
+
+  @media (overflow-block: scroll) {
+      body{
+        overflow-x:hidden;
+      }
+}
+  @media only screen and (max-width: 600px) {
+     
     nav ul{
         position: absolute;
         top: 70px;
         left: 0;
         background: #333;
-        width: 100%;
+        width: 99%;
         overflow: hidden;
         transition: max-height 0.5s;
     }
@@ -275,6 +300,17 @@ div h1{
     width: 90px;
     margin-bottom: 10px;
 }
+
+@media only screen and (max-width: 600px){
+    .selection-p1{
+        padding: 20px 50px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+}
+
 
 /* Service offer */
 
@@ -476,7 +512,8 @@ form button a{
     grid-row-gap: 40px;
 }
 
-@media screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
+
     .product-container {
       grid-template-columns: 1fr;
     }
@@ -486,7 +523,7 @@ form button a{
         font-size: 10px;
     }
     .card img{
-        max-width: 80%;
+        max-width: 100%;
         border-radius: 5px;
     }
     .buy-button{
@@ -599,22 +636,33 @@ form button a{
     font-size: 0.9em;
     text-align: right;
   }
-  @media screen and (max-width: 800px) {
+  @media only screen and (max-width: 600px) {
     .row.primary {
       grid-template-columns: 1fr;
-      width: 100%;
     }
     .row.primary{
-        width: 100%;
+        width: 70%;
         padding: 0;
-        font-size: 13px;
+        font-size: 12px;
+        
     }
     .row.copyright{
         width: 100%;
     }
+    .about{
+        padding: 20px;
+        margin-left: -40px;
+    }
+    .about h3 p{
+        font-size: 9px;
+    }
+    .links{
+        padding: 20px;
+        margin-left: -40px;
+    }
   
   }
-  @media screen and (max-width: 800px) {
+  @media only screen and (max-width: 600px) {
     .row{
         flex-direction: column;
     }
