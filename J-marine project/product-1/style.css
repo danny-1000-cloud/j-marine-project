@@ -1,0 +1,695 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, Georgia, 'Times New Roman', Times, serif;
+}
+.selection-p1{
+    padding: 40px 80px;
+}
+
+.selection-m1{
+    margin: 30px 0;
+}
+
+body{
+    width: 100%;
+}
+.logo{
+    width: 100px;
+    height: 65px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: #fff;
+    width: 100%;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    cursor: pointer;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+nav a:active {
+    color:#f5430c;
+}
+
+nav li a:hover {
+    color: #f5430c;
+}
+.row-2 p{
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 50px;
+}
+
+.row-2 h2, h3{
+    color: #f5430c;
+}
+.container-2{
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(ship-yacht-sea.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+.btn{
+    display: inline-block;
+    background: #f5430c;
+    color: #fff;
+    padding: 8px 25px;
+    margin: 20px 0;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    width: 350px;
+}
+.btn a{
+    color: #fff;
+}
+.row-2{
+    align-items: center;
+    text-align: center;
+    padding: 1em 1em;
+    margin: 140px;
+}
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        overflow-x: hidden;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    body{
+        overflow-x: hidden;
+    }
+}
+@media only screen and (max-width: 600px) {
+    body{
+        overflow-x: hidden;
+    }
+}
+@media only screen and (max-width: 600px) {
+
+    .row-2{
+        grid-template-columns: 1fr;
+        margin: 20px;
+        font-size: 11px;
+        padding-top: 30px;
+    }
+    .row-2 p{
+        color: #fff;
+        font-size: 14px;
+        margin: 8px;
+        padding: 15px;
+        line-height: 15px
+    }
+    .row- h2{
+        font-size: 13px;
+        padding: 5px;
+        margin: 8px;
+    }
+    .row-2 h3{
+        font-size: 14px
+        padding 12px;
+    }
+    .btn{
+        align-items: center;
+        width: 200px;
+        padding: 5px 12px;
+        margin-top: 5px;
+        border-radius: 30px;
+    }
+    .logo{
+        width: 90px;
+        height: 60px;
+    }
+  }
+
+  @media (overflow-block: scroll) {
+      body{
+        overflow-x:hidden;
+      }
+}
+  @media only screen and (max-width: 600px) {
+     
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 99%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ul li{
+       display: block;
+       margin-right: 40px;
+       margin-top: 10px;
+       margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+    }
+  }
+
+
+/* Home Page */
+
+#hero {
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(ship-yacht-sea.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.text{
+    box-sizing: border-box;
+    background-color: transparent;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    border: 1px solid #fff;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 25px;
+}
+
+#hero h1,h2,h4{
+    padding-bottom: 15px;
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+#hero p{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 30px;
+    padding: 2px;
+}
+
+#hero h3 {
+    color: #f5430c;
+}
+
+#hero button {
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+#hero button a{
+    color: #fff;
+}
+
+#hero button:hover{
+    color: #fff;
+    background-color: #088178;
+}
+
+#hero button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Products */
+
+div h1{
+    text-align: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 0 solid;
+    border-radius: 4px;
+    margin: 15px 0;
+
+}
+
+#feature .fe-box:hover {
+    box-shadow: 10px 20px 54px rgba(70, 62, 221, 0.1);
+}
+
+#feature .fe-box h6{
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #000;
+    background-color: #fff;
+    display: inline-block;
+}
+
+.fe-box .btn{
+    display: inline-block;
+    background: #f5430c;
+    color: #fff;
+    padding: 8px 25px;
+    margin: 20px 0;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    width: 150px;
+}
+
+.fe-box img{
+    height: 90px;
+    width: 90px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px){
+    .selection-p1{
+        padding: 20px 45px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-left: 5px;
+    }
+    .btn{
+        display: inline-block;
+        background: #f5430c;
+        color: #fff;
+        padding: 8px 20px;
+        margin: 5px 0;
+        border-radius: 30px;
+        border: 1px solid #fff;
+        cursor: pointer;
+        width: 200px;
+    }
+    .btn a{
+        font-size: 12px;
+    }
+}
+
+
+/* Service offer */
+
+.service{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    position: relative;
+    background-color: rgb(2, 3, 31);
+}
+
+.row{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(150, 150, 150);
+}
+
+.col-2{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 30px 22px;
+    box-sizing: border-box;
+    width: 70%;
+}
+.col-2{
+    flex-basis: 50px;
+    min-width: 300px;
+}
+
+.service h1,h2,h4{
+    padding-bottom: 15px;
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.service p{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 2px;
+    color: #fff;
+}
+
+.service h3 {
+    color: #f5430c;
+}
+
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+
+/* Vision */
+
+.service-2{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    position: relative;
+    
+}
+
+.service-2 h3 {
+    color: #f5430c;
+}
+
+.service-2 p{
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+    padding: 2px;
+    line-height: 30px;
+}
+
+/* Contact */
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(ship-yacht-sea.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+form h3{
+    color: #555;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 16px;
+}
+
+form button{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+form button a{
+    color: #fff;
+}
+
+/* Product-list */
+
+.product-list{
+    background-color: #dfe6e9;
+    padding: 3em;
+}
+
+.product-list h1{
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    font-family: 'Poppins';
+}
+
+.product-list .card{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: 0px 10px 5px #b2bec3;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+.card .title{
+    font-size: 20px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.card img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.card .text {
+    text-align: left;
+    margin-left: 2em;
+    margin-bottom: 0.5em;
+    font-size: 18px;
+}
+
+.buy-button{
+    background-color: #f5430c;
+    border: none;
+    padding: 1em;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 100%;
+}
+.buy-button a{
+    color: #fff;
+}
+.buy-button:hover {
+    box-shadow: 0px 5px 5px #b2bec3;
+    color: #eb4d4b;
+
+}
+
+.product-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .product-container {
+      grid-template-columns: 1fr;
+    }
+    .card .title{
+        font-size: 15px;
+        font-weight: 600;
+        font-size: 10px;
+    }
+    .card img{
+        max-width: 100%;
+        border-radius: 5px;
+    }
+    .buy-button{
+        width: 80%;
+    }
+  }
+
+
+  footer {
+    background-color: #121315;
+    color: #a7a7a7;
+    font-size: 16px;
+  }
+  footer * {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+  }
+  .row {
+    padding: 1em 1em;
+  }
+  .row p{
+    font-size: 0.9em;
+  }
+  .row.primary {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    align-items: stretch;
+  }
+  .column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em;
+    min-height: 15em;
+  }
+ footer h3 {
+    width: 100%;
+    text-align: left;
+    color: white;
+    font-size: 1.4em;
+    white-space: nowrap;
+  }
+ footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+ footer li:not(:first-child) {
+    margin-top: 0.8em;
+  }
+ footer ul li a {
+    color: #a7a7a7;
+    text-decoration: none;
+  }
+ footer ul li a:hover {
+    color: #2a8ded;
+  }
+  .about p {
+    text-align: justify;
+    line-height: 2;
+    margin: 0;
+  }
+  input,
+  button {
+    font-size: 1em;
+    padding: 1em;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  button {
+    background-color: #c7940a;
+    color: #ffffff;
+  }
+  div.social {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.4em;
+    flex-direction: row;
+    margin-top: 0.5em;
+  }
+  .social i {
+    color: #bac6d9;
+  }
+  
+  .copyright {
+    padding: 0.3em 1em;
+    background-color: #25262e;
+    width: 100%;
+  }
+  .footer-menu{
+    float: left;
+      margin-top: 10px;
+  }
+  
+  .footer-menu a{
+    color: #cfd2d6;
+    padding: 6px;
+  
+    text-decoration: none;
+  }
+  .footer-menu a:hover{
+    color: #27bcda;
+  }
+  .copyright p {
+    font-size: 0.9em;
+    text-align: right;
+  }
+  @media only screen and (max-width: 600px) {
+    .row.primary {
+      grid-template-columns: 1fr;
+    }
+    .row.primary{
+        width: 70%;
+        padding: 0;
+        font-size: 11px;
+        
+    }
+    .row.copyright{
+        width: 100%;
+    }
+    .about{
+        padding: 20px;
+        margin-left: -40px;
+    }
+    .about h3 p{
+        font-size: 9px;
+    }
+    .links{
+        padding: 20px;
+        margin-left: -40px;
+    }
+  
+  }
+  @media only screen and (max-width: 600px) {
+    .row{
+        flex-direction: column;
+    }
+}
